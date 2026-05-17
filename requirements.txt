@@ -3,7 +3,7 @@ numpy
 seaborn
 matplotlib
 scikit-learn
-catboost
-xgboost
 Flask
-#-e .
+gunicorn
+xgboost==2.0.3
+catboost==1.2.5
